@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<unistd.h>
 /**
  * main - Entry point
  * Description: print a-z in lowercase
