@@ -4,11 +4,11 @@
 /**
  * main - Entry point
  * Description: Prints the last digit stored in a variable
- * Returns: 0
+ * Return: 0
  */
 int main(void)
 {
-	int n,m;
+	int n, m;
 
 	n = rand() - RAND_MAX / 2;
 	m = n % 10;
@@ -23,7 +23,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last of %d is %d and is 0\n", n, m);
+		printf("Last digit of %d is %d and is 0\n", n, m);
 	}
 	return (0);
 }
