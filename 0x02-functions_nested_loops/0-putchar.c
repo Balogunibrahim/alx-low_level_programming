@@ -1,12 +1,13 @@
 #include "main.h"
 /**
  * main - Entry point
+ *
  * Description: Prints _putchar followed by a new line 
  * Return: 0
  */
 int main(void)
 {
-	char str[] = "_putchar";
+	char str[] = "_putchar\n";
 	int i = 0;
 
 	while (str[i] != '\0')
