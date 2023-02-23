@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_last_digit - print the last digit wether it is positive or negative 
+ *print_last_digit - print the last digit.
  *
- * @n: the number that is checked 
+ *@n: The number that is checked
  *
  * Return: return the last digit
  *
