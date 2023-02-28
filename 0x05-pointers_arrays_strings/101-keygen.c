@@ -11,7 +11,7 @@ int main(void)
 {
 	char password[11];
 	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+";
-	srand(time(0));
+	srand(time(NULL));
 
 	for (int i = 0; i < 10; i++)
 	{
