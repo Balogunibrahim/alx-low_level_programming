@@ -7,7 +7,7 @@
  *
  * Return: 0
  */
-int main*(void)
+int main(void)
 {
 	char password[11];
 	const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+";
