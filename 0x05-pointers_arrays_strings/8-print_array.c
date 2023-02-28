@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * print_array - a function that prints n elements of an array of integer on a new line.
+ * print_array - a function that prints n elements of an array.
  *
  * @a: int to be checked
  *
@@ -13,11 +13,10 @@
 void print_array(int *a, int  n)
 {
 	int i;
-	
 	for (i = 0; i < n; i++)
 	{
 		printf("%d", a[i]);
-		if (i < n-1)
+		if (i < n - 1)
 		{
 			printf(", ");
 		}
