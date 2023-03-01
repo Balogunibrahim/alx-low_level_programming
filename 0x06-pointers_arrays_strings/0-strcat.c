@@ -5,10 +5,14 @@
  * @dest: the character that is checked
  *
  * @src: the character that is checked
+ *
+ *Return: dest
+ *
  */
 char *_strcat(char *dest, char *src)
 {
 	char *ptr = dest;
+
 	while (*ptr != '\0')
 	{
 		ptr++;
