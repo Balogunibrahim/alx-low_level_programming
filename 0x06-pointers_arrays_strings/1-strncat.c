@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * _strncat- a fucntion that cat two string but terminates at n index
+ * _strncat- a function that cat two string but terminates at n index
  *
  * @dest: The character that is checked
  *
