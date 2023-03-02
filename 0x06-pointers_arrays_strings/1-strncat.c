@@ -15,14 +15,21 @@ char *_strncat(char *dest, char *src, int n)
 	int dest_len = 0;
 	int i;
 
+
+	// Calculate the vaue of the dest string
 	while (dest[dest_len] != '\0')
 	{
 		dest_len++;
 	}
+
+	// Copy a most n byte from src to dest
 	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
 		dest[dest_len + i] = src[i];
 	}
+
+	// Add a null terminator at the of the concatenated string
 	dest[dest_len + n] = '\0';
+
 	return (dest);
 }
