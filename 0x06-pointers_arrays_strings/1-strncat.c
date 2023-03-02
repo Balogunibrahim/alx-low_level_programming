@@ -10,20 +10,20 @@
  *
  * Return: dest
  */
-char _strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	char *dest_ptr = dest;
+	int dest_len = 0;
+	int i;
 
-	while (*dest_ptr != '\0')
+	while (dest[dest_len] != '\0')
 	{
-		dest_ptr++;
+		dest_len++;
 	}
-	int n;
 
 	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
-		dest_ptr[i] = src[i];
+		dest[dest_len + i] = src[i];
 	}
-	dest_ptr[i] = '\0';
+	dest[dest_len + n] = '\0';
 	return (dest);
 }
