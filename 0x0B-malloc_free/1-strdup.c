@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * _strdup-  a function that returns a pointer to a newly allocated space in memory
+ * _strdup-  a function that returns a pointer to a newly allocated memory
  * @s: charcter that is being checked
  * Return: The newly allocated memory
  */
