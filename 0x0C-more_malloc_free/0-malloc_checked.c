@@ -5,7 +5,7 @@
  * @b: character that is checked
  * Return: the address of malloc
  */
-void *malloc_checked*(unsigned int b)
+void *malloc_checked(unsigned int b)
 {
 	void *ptr;
 
