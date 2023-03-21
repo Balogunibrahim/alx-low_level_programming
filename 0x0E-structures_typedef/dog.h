@@ -1,5 +1,5 @@
-#ifndef _D0G_H_
-#define _DOG_H_
+#ifndef DOG_H
+#define DOG_H
 /**
  * struct dog - Information about a dog
  * @name: name of the dog
@@ -24,4 +24,4 @@ void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 
-#endif /*_DOG_H_*/
+#endif /*DOG_H*/
