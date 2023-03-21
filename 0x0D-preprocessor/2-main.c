@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * * main - prints the name ofthe file it was compiled form
- * *
- * * Return: zero
- * */
+ * main - prints the name ofthe file it was compiled form
+ * 
+ * Return: 0
+ */
 
 int main(void)
 {
